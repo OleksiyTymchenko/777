@@ -203,15 +203,18 @@ body {
 }
 
 @media (max-width: 670px) {
+  .photo-part__item {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
   .photo-part__item:first-child {
     margin-left: 0px;
   }
   .photo-part__item {
     margin-right: 0px;
   }
-  .photo-part__item {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+  .photo-part {
+    display: none;
   }
 }
 
